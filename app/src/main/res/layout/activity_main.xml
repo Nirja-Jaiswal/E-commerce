@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bardeal"
+        android:textColor="@color/redpink"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:gravity="center">
+
+    </TextView>
+    <ImageView
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/shopping"
+        ></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/latestoutfit"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="15dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text1"
+        android:textColor="@color/gary"
+        android:textSize="25dp"
+        android:gravity="center"
+
+        android:layout_marginTop="25dp">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:weightSum="3">
+
+
+
+        <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:src="@drawable/ic_baseline_sentiment_satisfied_alt_24dot"
+           android:layout_marginTop="20dp">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:src="@drawable/ic_baseline_sentiment_satisfied_alt_24dot"
+            android:layout_marginTop="20dp">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:src="@drawable/ic_baseline_sentiment_satisfied_alt_24dot"
+            android:layout_marginTop="20dp">
+
+        </ImageView>
+
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/nxt"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_margin="30dp"
+        android:text="@string/next"
+        android:textSize="30dp"
+        android:background="@drawable/bback"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+
+</LinearLayout>
+

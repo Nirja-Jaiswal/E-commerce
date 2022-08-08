@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">E-commerce</string>
+    <string name="bardeal">BARDEAL</string>
+    <string name="latestoutfit">Latest Outfit</string>
+    <string name="next">Next</string>
+    <string name="text1">There are many new outfit that make you cool</string>
+    <string name="done">Done</string>
+    <string name="remamber">Remamber My Password</string>
+    <string name="enter">Enter Here</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="donthv">Don\'t have Account?</string>
+    <string name="loginto">Login to Bardeal</string>
+    <string name="Continue">Continue</string>
+    <string name="cho">Choose your favorit fashion categories</string>
+    <string name="text2">You can choose more than one</string>
+    <string name="search">Search Here</string>
+    <string name="empty">Empty Basket</string>
+    <string name="emt_text1">Your basket is still empty,browse the attractive promos from bardeal</string>
+    <string name="shopp">Shopping Now</string>
+    <string name="bkho">Back to Home</string>
+    <string name="bkho_text1">Your packet will be sent to your address thakns for order</string>
+    <string name="ordsc">Order Success</string>
+    <string name="title_activity_homebotnv">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_secound_fragment">hello secound fragment</string>
+
+</resources>

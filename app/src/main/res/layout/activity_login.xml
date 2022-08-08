@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".LoginActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/log_pg_img">
+
+    </ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/loginto"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:weightSum="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_weight="1.5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/donthv"
+            android:textStyle="bold"
+            android:textSize="25dp"/>
+        <TextView
+            android:paddingLeft="15dp"
+            android:layout_weight=".5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/signup"
+            android:textColor="@color/redpink"
+            android:textSize="25dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:weightSum="3">
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_sentiment_satisfied_alt_24dot"
+            android:layout_marginTop="20dp">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:src="@drawable/ic_baseline_sentiment_satisfied_alt_24dot"
+            android:layout_marginTop="20dp">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:src="@drawable/ic_baseline_sentiment_satisfied_alt_24dot"
+            android:layout_marginTop="20dp">
+
+        </ImageView>
+
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textSize="16dp"/>
+
+    <EditText
+        android:id="@+id/edtmail"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter"
+        android:textSize="16dp"
+        android:padding="10dp"
+        android:background="@drawable/bbackwhite"
+        android:backgroundTint="@color/gary"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        android:textSize="16dp"/>
+
+
+
+    <EditText
+        android:id="@+id/edtpass"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter"
+        android:textSize="16dp"
+        android:padding="10dp"
+        android:background="@drawable/bbackwhite"
+        android:backgroundTint="@color/gary"/>
+
+
+    <LinearLayout
+        android:weightSum="3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+        </CheckBox>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/remamber"
+            android:textSize="16dp"
+            android:textColor="@color/gary"/>
+
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/done"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_margin="30dp"
+        android:text="@string/done"
+        android:background="@drawable/bback"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+</LinearLayout>
+
+
